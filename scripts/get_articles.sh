@@ -1,9 +1,9 @@
 #!/bin/bash
 
 titles=("Heretic" "The Best Christmas Pageant Ever" "Elevation" "The Sacred Kingdom" "Christmas Eve in Miller’s Point" "Bird")
+director=("Beck" "Jenkins" "Nolfi" "movie" "Taormina" "Arnold")
 your_api_key="7893c8073cb841aa9f69296b5df063e2"
 tags=("heretic" "pageant" "elevation" "overlord" "miller" "bird")
-
 
 start_date="2024-11-01"
 end_date="2024-11-22"
