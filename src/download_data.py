@@ -4,15 +4,16 @@ from datetime import datetime, timedelta
 
 NEWS_API_URL = "https://newsapi.org/v2/everything"
 
-''' writing a function to fetch all articles with a given title and studio name
-must be released between november 9 and 12, 2024. '''
+''' writing a function to fetch all articles with a given title and studio name'''
 
-def fetch_articles(api_key, title, start_date, end_date, filename="articles.json"):
+def fetch_articles(api_key, title, studio, director, start_date, end_date, filename="articles.json"):
     """Fetch all articles with a given title and studio name """
+
+    # query must contain movie name and either the director or studio name, do this with OR logic
 
     params = {
         "apiKey": api_key,
-        "q": f"{title} AND movie",
+        "q": f"{title} {studio} OR {title} {director}",
         "from": start_date.isoformat(),
         "to": end_date.isoformat(),
         "language": "en",
@@ -35,6 +36,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("api_key", help="Your News API key")
     parser.add_argument("title", help="The title of the movie")
+    parser.add_argument("studio", help="The studio that produced the movie")
+    parser.add_argument("director", help="The director of the movie")
     parser.add_argument("start_date", help="The start date for the search (YYYY-MM-DD)")
     parser.add_argument("end_date", help="The end date for the search (YYYY-MM-DD)")
     parser.add_argument("filename", help="The name of the output file", default="articles.json")
@@ -44,4 +47,4 @@ if __name__ == "__main__":
     start_date = datetime.strptime(args.start_date, "%Y-%m-%d")
     end_date = datetime.strptime(args.end_date, "%Y-%m-%d")
 
-    fetch_articles(args.api_key, args.title, start_date, end_date, args.filename)
+    fetch_articles(args.api_key, args.title, args.studio, args.director, start_date, end_date, args.filename)
