@@ -14,7 +14,7 @@ vectorizer = TfidfVectorizer(stop_words=list_stopwords)
 content_vectorized = vectorizer.fit_transform(df['content'])
 
 # Compute TF-IDF scores
-feature_names = vectorizer.get_feature_names()
+feature_names = vectorizer.get_feature_names_out()
 # NOTE: if you are using a later version of python/sklearn and find errors with the above line, you should instead try:
 # feature_names = vectorizer.get_feature_names_out()
 

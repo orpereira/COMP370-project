@@ -1,0 +1,86 @@
+OG stop words list without "here"
+
+Top 10 words in category 'A':
+film: 2.5062
+heretic: 2.4443
+grant: 2.1228
+hugh: 2.1005
+movie: 2.0513
+horror: 1.9699
+two: 1.8319
+erivo: 1.8226
+wicked: 1.8152
+gladiator: 1.7925
+
+Top 10 words in category 'AN':
+awards: 2.8330
+academy: 1.2081
+oscar: 1.0850
+15th: 0.8637
+governors: 0.8637
+voters: 0.8550
+annual: 0.8355
+oscars: 0.8081
+sunday: 0.7320
+year: 0.7308
+
+Top 10 words in category 'BOP':
+box: 10.0865
+office: 10.0865
+last: 10.0243
+venom: 9.8846
+dance: 9.6974
+million: 9.0930
+weekend: 8.0287
+york: 6.1951
+new: 5.3013
+north: 5.2460
+
+Top 10 words in category 'BSI':
+wicked: 2.1438
+gladiator: 1.6250
+scott: 1.5632
+film: 1.5351
+director: 1.4681
+ii: 1.4223
+movie: 1.3324
+washington: 1.2522
+heretic: 1.2389
+ridley: 1.1488
+
+Top 10 words in category 'CCI':
+ai: 1.0009
+horror: 0.8870
+newsletter: 0.8457
+colosseum: 0.8101
+scott: 0.7725
+heretic: 0.7710
+ancient: 0.7614
+movie: 0.7337
+generative: 0.7215
+grant: 0.7175
+
+Top 10 words in category 'FCT':
+gladiator: 4.2654
+film: 3.2082
+movie: 2.9677
+ii: 2.7814
+heretic: 2.7640
+wicked: 2.5246
+pictures: 2.2995
+scott: 2.2072
+a24: 1.9125
+mescal: 1.8644
+
+Top 10 words in category 'PM':
+wicked: 3.0403
+movie: 2.5578
+pictures: 2.0421
+universal: 1.9883
+heretic: 1.8066
+weekend: 1.8032
+new: 1.6865
+company: 1.6008
+release: 1.5628
+november: 1.5275
+
