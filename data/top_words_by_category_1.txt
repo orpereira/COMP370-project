@@ -1,3 +1,5 @@
+OG stop words list
+
 Top 10 words in category 'A':
 film: 2.5077
 heretic: 2.4443
@@ -23,8 +25,8 @@ sunday: 0.7320
 year: 0.7308
 
 Top 10 words in category 'BOP':
-box: 10.0899
 office: 10.0899
+box: 10.0899
 last: 10.0258
 venom: 9.8861
 dance: 9.6990
