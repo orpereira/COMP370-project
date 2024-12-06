@@ -1,0 +1,86 @@
+OG stop words list with "all the movie titles and: film, movie, two"
+
+Top 10 words in category 'A':
+grant: 2.1738
+hugh: 2.1475
+horror: 2.0082
+erivo: 1.8469
+a24: 1.7032
+cynthia: 1.6772
+culkin: 1.6723
+kieran: 1.6723
+eisenberg: 1.6710
+first: 1.6105
+
+Top 10 words in category 'AN':
+awards: 2.8404
+academy: 1.2134
+oscar: 1.0888
+15th: 0.8637
+governors: 0.8637
+voters: 0.8578
+annual: 0.8355
+oscars: 0.8148
+sunday: 0.7339
+year: 0.7308
+
+Top 10 words in category 'BOP':
+office: 10.4597
+box: 10.4597
+million: 9.3875
+weekend: 8.3324
+york: 6.3854
+new: 5.4497
+north: 5.4022
+estimates: 5.1991
+studio: 4.9605
+even: 4.9214
+
+Top 10 words in category 'BSI':
+scott: 1.6139
+director: 1.5488
+washington: 1.2720
+pictures: 1.2051
+ridley: 1.1947
+ariana: 1.1123
+week: 1.1069
+cut: 1.0626
+glinda: 1.0504
+a24: 0.9964
+
+Top 10 words in category 'CCI':
+ai: 1.0192
+horror: 0.9016
+newsletter: 0.8538
+colosseum: 0.8129
+scott: 0.7942
+ancient: 0.7661
+generative: 0.7402
+grant: 0.7316
+hugh: 0.7218
+court: 0.7148
+
+Top 10 words in category 'FCT':
+pictures: 2.4201
+scott: 2.3018
+mescal: 2.0157
+a24: 1.9924
+paul: 1.9893
+spoilers: 1.8268
+zemeckis: 1.7294
+hugh: 1.7137
+adaptation: 1.6668
+ridley: 1.6391
+
+Top 10 words in category 'PM':
+pictures: 2.1110
+universal: 2.0355
+weekend: 1.8392
+new: 1.7160
+company: 1.6219
+horror: 1.5826
+release: 1.5770
+november: 1.5602
+a24: 1.5428
+coming: 1.4823
+
